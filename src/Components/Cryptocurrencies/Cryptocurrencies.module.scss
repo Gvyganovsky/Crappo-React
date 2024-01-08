@@ -1,0 +1,39 @@
+.crypto {
+    @apply bg-white;
+    
+    .crypto_content {
+        @apply max-w-1200 mx-auto pt-16 pb-10;
+    }
+
+    .crypto_title {
+        @apply 320:text-2xl font-bold xl:text-4xl text-center mb-8 max-w-785 mx-auto
+    }
+
+    .crypto_iconsBlock {
+        @apply flex flex-wrap justify-center 
+    }
+
+    .crypto_svg {
+        @apply mx-auto mt-10
+    }
+
+    .crypto_iconBlock {
+        @apply max-w-350 justify-center text-center shadow-2xl rounded-3xl bg-bg2 mx-2 mb-4
+    }
+
+    .crypto_iconTitle {
+        @apply text-3xl font-bold text-white my-7
+    }
+
+    .crypto_iconText {
+        @apply text-white
+    }
+
+    .crypto_button {
+        @apply mx-auto py-2 px-4 flex items-center bg-blue-500 rounded-3xl mt-7 mb-8
+    }
+
+    .crypto_span {
+        @apply text-white mr-4 text-lg 
+    }
+}

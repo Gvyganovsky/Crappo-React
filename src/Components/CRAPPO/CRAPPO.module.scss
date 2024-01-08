@@ -1,0 +1,43 @@
+.CRAPPO {
+    @apply max-w-1200 mx-auto mt-32;
+
+    .CRAPPO_iconsBlock {
+        @apply 320:justify-center flex flex-wrap lg:justify-between mt-24
+    }
+
+    .CRAPPO_iconBlock {
+        @apply flex items-center my-4 mx-2
+    }
+
+    .CRAPPO_iconTextBlock {
+        @apply ml-4
+    }
+
+    .CRAPPO_title {
+        @apply text-white font-bold text-3xl mb-1
+    }
+
+    .CRAPPO_text {
+        @apply text-white
+    }
+
+    .CRAPPO_mainBlock {
+        @apply 320:justify-center xl:justify-between flex items-center flex-wrap
+    }
+
+    .CRAPPO_mainTextBlock {
+        @apply max-w-500
+    }
+
+    .CRAPPO_mainTitle {
+        @apply 320:text-2xl 320:mt-4 320:text-center xl:text-left font-bold text-white mb-6
+    }
+
+    .CRAPPO_mainText {
+        @apply 320:text-center xl:text-left text-white
+    }
+
+    .CRAPPO_button {
+        @apply 320:mx-auto xl:mx-0 py-3 px-6 bg-blue-500 text-white rounded-3xl max-w-150 mt-8 text-center
+    }
+}

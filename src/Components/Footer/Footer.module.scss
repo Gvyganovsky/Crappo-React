@@ -1,0 +1,11 @@
+.Footer {
+    @apply max-w-1100 mx-auto py-6 flex flex-wrap justify-evenly;
+
+    .footer_blockTitle {
+        @apply text-white font-bold
+    }
+
+    .footer_blockText {
+        @apply text-white
+    }
+}

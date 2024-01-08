@@ -1,0 +1,15 @@
+.header {
+    @apply max-w-1200 py-5 px-2 flex justify-between mx-auto;
+
+    .header_nav {
+        @apply text-white flex items-center font-bold
+    }
+
+    .header_link {
+        @apply mr-2
+    }
+
+    .header_button {
+        @apply py-2 px-6 bg-blue-500 text-white rounded-2xl
+    }
+}

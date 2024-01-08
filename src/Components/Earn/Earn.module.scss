@@ -1,0 +1,31 @@
+.earn {
+    @apply max-w-1200 mx-auto my-32;
+
+    .earn_title {
+        @apply font-bold text-4xl text-center text-white mb-4
+    }
+
+    .earn_text {
+        @apply text-lg text-center text-gray-400 max-w-620 mx-auto mb-10
+    }
+
+    .earn_rate {
+        @apply max-w-800 mx-auto bg-white p-8 rounded-2xl
+    }
+
+    span {
+        @apply text-blue-500
+    }
+
+    .earm_rateText {
+        @apply font-medium text-blue-500
+    }
+
+    .earm_rateNub {
+        @apply text-2xl font-bold mt-4
+    }
+
+    .earm_rateGray {
+        @apply mt-1 text-gray-400
+    }
+}

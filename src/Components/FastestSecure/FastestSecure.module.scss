@@ -1,0 +1,35 @@
+.fastestSecure {
+    @apply 320:flex-col-reverse xl:flex-row max-w-1200 mx-auto flex justify-between px-6 items-center ;
+
+    .fastestSecure_ovalGlobal {
+        @apply 320:mx-auto xl:mx-0 max-w-350 rounded-3xl backdrop-opacity-95 bg-gray-700 py-1 px-2 flex items-center mb-6
+    }
+
+    .fastestSecure_ovalWhite {
+        @apply 320:text-xs xl:text-base max-w-100 rounded-3xl py-1 px-2 bg-white mr-4 
+    }
+
+    .fastestSecure_ovalText {
+        @apply 320:text-xs text-white xl:text-base
+    }
+
+    .fastestSecure_title {
+        @apply 320:text-2xl 320:text-center xl:text-left  font-bold xl:text-6xl text-white max-w-560
+    }
+
+    .fastestSecure_text {
+        @apply 320:mx-auto 320:text-center xl:mx-0 xl:text-left text-base text-white max-w-400 mt-6
+    }
+
+    .fastestSecure_button {
+        @apply 320:mx-auto xl:mx-0 py-2 px-4 flex items-center bg-blue-500 rounded-3xl mt-7
+    }
+
+    .fastestSecure_span {
+        @apply text-white mr-4 text-lg
+    }
+
+    .fastestSecure_img {
+        @apply 320:mb-4 xl:mb-0
+    }
+}

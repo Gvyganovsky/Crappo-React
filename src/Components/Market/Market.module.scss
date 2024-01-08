@@ -1,0 +1,31 @@
+.Market {
+    @apply bg-bg2;
+
+    .Market_titleGlobal {
+        @apply 320:text-3xl max-w-785 lg:text-4xl text-white font-bold text-center mx-auto pt-16
+    }
+
+    .market_content {
+        @apply max-w-1200 mx-auto pt-16 pb-10 flex flex-wrap justify-between items-center;
+    }
+
+    .market_TextBlock {
+        @apply 320:mx-auto
+    }
+
+    .market_title {
+        @apply 320:text-xl 320:text-center lg:text-left lg:text-2xl text-white font-bold mb-4
+    }
+
+    .market_text {
+        @apply text-gray-300 max-w-400 320:text-center lg:text-left
+    }
+
+    .market_button {
+        @apply 320:mx-auto lg:mx-0 py-2 px-4 bg-blue-500 rounded-3xl mt-7 mb-8 text-white max-w-150 text-center
+    }
+
+    .market_content>img {
+        @apply 320:mx-auto px-2 lg:mx-0
+    }
+}
